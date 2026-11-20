@@ -1,0 +1,187 @@
+{
+  "total_count": 5,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 1001,
+      "node_id": "I_kwDOAJ",
+      "number": 101,
+      "title": "Add support for custom datetime serializers",
+      "user": {
+        "login": "octocat",
+        "id": 1,
+        "type": "User"
+      },
+      "labels": [
+        {
+          "id": 201,
+          "name": "good first issue",
+          "color": "7057ff",
+          "description": "Good for newcomers"
+        },
+        {
+          "id": 202,
+          "name": "enhancement",
+          "color": "a2eeef",
+          "description": "New feature or request"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "assignees": [],
+      "comments": 4,
+      "created_at": "2024-03-01T10:00:00Z",
+      "updated_at": "2024-03-10T14:30:00Z",
+      "closed_at": null,
+      "author_association": "MEMBER",
+      "body": "It would be great to allow custom serializers for datetime objects. We already have a hook in `serializer.py`. Please add unit tests in `tests/test_serializers.py`.",
+      "html_url": "https://github.com/fastapi/fastapi/issues/101",
+      "repository_url": "https://api.github.com/repos/fastapi/fastapi"
+    },
+    {
+      "id": 1002,
+      "node_id": "I_kwDOAK",
+      "number": 102,
+      "title": "Fix memory leak in websocket disconnect handler",
+      "user": {
+        "login": "dev_user",
+        "id": 2,
+        "type": "User"
+      },
+      "labels": [
+        {
+          "id": 203,
+          "name": "bug",
+          "color": "d73a4a",
+          "description": "Something isn't working"
+        },
+        {
+          "id": 204,
+          "name": "help wanted",
+          "color": "008672",
+          "description": "Extra attention is needed"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": {
+        "login": "active_maintainer",
+        "id": 3
+      },
+      "assignees": [
+        {
+          "login": "active_maintainer",
+          "id": 3
+        }
+      ],
+      "comments": 8,
+      "created_at": "2024-02-15T09:00:00Z",
+      "updated_at": "2024-03-08T11:00:00Z",
+      "closed_at": null,
+      "author_association": "CONTRIBUTOR",
+      "body": "When a client disconnects abruptly without close frame, connection handler holds ref.",
+      "html_url": "https://github.com/fastapi/fastapi/issues/102",
+      "repository_url": "https://api.github.com/repos/fastapi/fastapi"
+    },
+    {
+      "id": 1003,
+      "node_id": "PR_kwDOAL",
+      "number": 103,
+      "title": "PR: Refactor dependency injection container",
+      "user": {
+        "login": "pr_author",
+        "id": 4,
+        "type": "User"
+      },
+      "labels": [
+        {
+          "id": 205,
+          "name": "refactoring",
+          "color": "cfd3d7"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "assignees": [],
+      "comments": 2,
+      "created_at": "2024-03-05T12:00:00Z",
+      "updated_at": "2024-03-09T08:00:00Z",
+      "closed_at": null,
+      "author_association": "CONTRIBUTOR",
+      "body": "This PR refactors the DI container to improve resolution speed.",
+      "html_url": "https://github.com/fastapi/fastapi/pull/103",
+      "repository_url": "https://api.github.com/repos/fastapi/fastapi",
+      "pull_request": {
+        "url": "https://api.github.com/repos/fastapi/fastapi/pulls/103",
+        "html_url": "https://github.com/fastapi/fastapi/pull/103"
+      }
+    },
+    {
+      "id": 1004,
+      "node_id": "I_kwDOAM",
+      "number": 201,
+      "title": "Update tutorial docs for sub-applications",
+      "user": {
+        "login": "doc_writer",
+        "id": 5,
+        "type": "User"
+      },
+      "labels": [
+        {
+          "id": 206,
+          "name": "documentation",
+          "color": "0075ca"
+        },
+        {
+          "id": 207,
+          "name": "good first issue",
+          "color": "7057ff"
+        }
+      ],
+      "state": "closed",
+      "locked": false,
+      "assignee": null,
+      "assignees": [],
+      "comments": 1,
+      "created_at": "2024-01-01T10:00:00Z",
+      "updated_at": "2024-01-05T10:00:00Z",
+      "closed_at": "2024-01-05T10:00:00Z",
+      "author_association": "NONE",
+      "body": "The mounting documentation has outdated code snippets for lifespan handlers.",
+      "html_url": "https://github.com/pallets/flask/issues/201",
+      "repository_url": "https://api.github.com/repos/pallets/flask"
+    },
+    {
+      "id": 1005,
+      "node_id": "I_kwDOAN",
+      "number": 202,
+      "title": "CLI: Add --json output flag to inspect command",
+      "user": {
+        "login": "cli_dev",
+        "id": 6,
+        "type": "User"
+      },
+      "labels": [
+        {
+          "id": 208,
+          "name": "help wanted",
+          "color": "008672"
+        }
+      ],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "assignees": [],
+      "comments": 0,
+      "created_at": "2024-03-12T16:00:00Z",
+      "updated_at": "2024-03-12T16:00:00Z",
+      "closed_at": null,
+      "author_association": "MEMBER",
+      "body": "Users need structured json output for CI scripts. Add --json flag using click.echo(json.dumps(...)).",
+      "html_url": "https://github.com/pallets/flask/issues/202",
+      "repository_url": "https://api.github.com/repos/pallets/flask"
+    }
+  ]
+}
